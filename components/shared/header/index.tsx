@@ -15,7 +15,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link
               href="/"
-              className="flex items-center header-button font-extrabold text-2xl m-1"
+              className="flex items-center header-button font-extrabold lg:text-2xl gap-2 m-1"
             >
               <Image
                 src="/icons/logo.svg"
@@ -23,6 +23,7 @@ export default function Header() {
                 width={40}
                 height={40}
               />
+              <span>{APP_NAME}</span>
             </Link>
           </div>
 
